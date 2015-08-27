@@ -41,7 +41,7 @@ $config = [
     ],
     'params' => $params,
 ];
-
+/*
 if (YII_ENV_DEV) {
     // configuration adjustments for 'dev' environment
     $config['bootstrap'][] = 'debug';
@@ -56,5 +56,5 @@ if (YII_ENV_DEV) {
     ];
     $config['modules']['gii']['allowedIPs'] = ['*']; 
 }
-
+*/
 return $config;
